@@ -4,7 +4,9 @@ CPSC/ECE 3520 SSII 2016\\ Software Design Exercise \#2
 Zack Wiseman
 07/25/2016
 motion.caml
+THis program is to take an two images, find the defferences and track the motion that occurred. 
 *)
+
 (*diffImRow(image1Row,image2Row)*)
 let rec diffImRow(image1Row,image2Row) = 
 	match image1Row,image2Row with
